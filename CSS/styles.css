@@ -1,0 +1,26 @@
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+iframe {
+  max-width: 560px;
+  width: 100%;
+}
+
+.navbar {
+  margin-right: 30px;
+  font-size: 3.25rem;
+}
+
+.nav-link {
+  margin-right: 30px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+p {
+  /* margin-bottom: 500px; */
+}
