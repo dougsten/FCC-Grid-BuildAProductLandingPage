@@ -1,17 +1,52 @@
 #header {
+  position: fixed;
+  top: 0;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: white;
+  z-index: 1;
+}
+
+#hero {
+  display: grid;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+#hero h1 {
+  margin: 10px;
+}
+
+#email {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#submit {
+  display: block;
+}
+
+.h-center {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+img {
+  height: 50px;
 }
 
 iframe {
+  display: flex;
+  height: 315px; 
   max-width: 560px;
   width: 100%;
 }
 
 .navbar {
   margin-right: 30px;
-  font-size: 3.25rem;
+  font-size: 1.25rem;
 }
 
 .nav-link {
@@ -21,6 +56,19 @@ iframe {
   font-weight: 500;
 }
 
-p {
-  /* margin-bottom: 500px; */
+#features {
+  display: flex;
+  align-items: center;
+}
+
+.fa-fire {
+  display: inline-block;
+  color: orange;
+  margin-right: 25px;
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    background-color: pink;
+  }
 }

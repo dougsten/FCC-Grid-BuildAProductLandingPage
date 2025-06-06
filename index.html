@@ -4,8 +4,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Magazine Layout</title>
+  <title>Product Landing Page</title>
   <link rel="stylesheet" href="./CSS/styles.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
 <body>
@@ -17,12 +19,20 @@
       <a class="nav-link" href="#pricing">Pricing</a>
     </nav>
   </header>
-  <iframe id="video" height="315" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
+  
+  <section id="hero">
+    <h1>Handcrafted, home-made masterpieces</h1>
+    <form id="form" class="h-center" action="https://www.freecodecamp.org/email-submit">
+      <input id="email" name="email" type="email" placeholder="Enter your email address">
+      <input id="submit" class="h-center" form="form" name="email" type="submit">
+    </form>
+  </section>
   <section id="features">
+    <i class="fa fa-fire" ></i>
     <p>Features</p>
   </section>
   <section id="how-it-works">
-    <p>How It Works</p>
+    <iframe id="video" class="h-center" height="315" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
   </section>
   <section id="pricing">
     <p>Pricing</p>
